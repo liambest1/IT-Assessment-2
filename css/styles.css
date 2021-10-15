@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto';
+    font-family: "Monserrat";
     
 }
 #title{
@@ -13,34 +13,10 @@ body {
     padding-left:20px;
 }
 h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 3.5rem;
     line-height: 1.5;
 }
-
-h2 {
-	font-size: 24px;
-	color: black;
-}
-
-h3 {
-	font-size: 16px;
-	color: black;
-	font-weight: bold;
-}
-
-hr {
-	border: 1px solid black;
-}
-
-p {
-	color: black;
-}
-
-th, td {
-	padding: 10px;
-}
-
 .container-fluid{
     padding: 3% 5%;
 }
@@ -50,7 +26,7 @@ th, td {
 }
 
 .navbar-brand {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size:2rem;
     font-weight: bold;
     
@@ -61,12 +37,7 @@ th, td {
 }
 
 .nav-link{
-	display: flex;
-	justify-content: space-around;
-	font-weight: 700;
-	list-style-type: none;
-	margin: 0 auto;
-	padding: 0;
+    font-size:0.9rem;
 }
 
 .title-image{
@@ -135,45 +106,9 @@ h1 {
     margin: 0 auto 0 auto;
     color: #66BFBF;
 }
-
-/* Small Card for content */
-.card {
-	margin: 30px;
-	padding: 20px 40px 40px;
-	max-width: 500px;
-	text-align: left;
-	background: #fff;
-	border-bottom: 4px solid #ccc;
-	border-radius: 6px;
+u {
+    color:yellow
 }
-
-/* Medium Card for content */
-.card2 {
-	margin: 30px;
-	padding: 20px 40px 40px;
-	min-width: 600px;
-	max-width: 800px;
-	text-align: left;
-	background: #fff;
-	border-bottom: 4px solid #ccc;
-	border-radius: 6px;
-}
-
-@media screen and (min-width: 720px) {
-
-	/* Page 1 */
-	.pageFrame {
-		display: flex;
-		max-width: 1200px;
-		justify-content: space-around;
-		margin: 0 auto;
-	}
-	
-	/* Page 2 */
-	.pageFrame2 {
-		display: flex;
-		max-width: 1200px;
-		justify-content: space-around;
-		margin: 0 auto;
-	}
+.project{
+   color:white;
 }
